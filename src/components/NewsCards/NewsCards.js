@@ -6,10 +6,10 @@ import useStyles from './styles';
 import NewsCard from '../NewsCard/NewsCard';
 
 const infoCards = [
-    { color: '#00838f', title: 'Latest News', text: 'Give me the latest news' },
+    { color: '#00838f', title: 'About This App', text: 'What does this app do or What can I do here' },
     { color: '#1565c0', title: 'News by Categories', info: 'Business, Entertainment, General, Health, Science, Sports, Technology', text: 'Give me the latest Technology news' },
-    { color: '#4527a0', title: 'News by Terms', info: 'Bitcoin, PlayStation 5, Smartphones, Donald Trump...', text: 'What\'s up with PlayStation 5' },
-    { color: '#283593', title: 'News by Sources', info: 'CNN, Wired, BBC News, Time, IGN, Buzzfeed, ABC News...', text: 'Give me the news from CNN' },
+    { color: '#4527a0', title: 'News by Terms', info: 'Stay updated with the business news in the US', text: 'Give me the current business news from the US' },
+    { color: '#283593', title: 'News by Sources', info: 'All news from BBC', text: 'Give me the news from BBC' },
   ];
 
 const NewsCards = ({ articles, activeArticle }) => {
